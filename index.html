@@ -4,72 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Card Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
         <section class="website-title">
-            <h3>Interactive Js Card</h3>
+            <h3>Interactive Profile Card</h3>
         </section>
-        <section>
-            <div class="card">
-                <div class="card-image">
-                    <img width="300" height="140" src="img/fasticore.png" alt="">
-                </div>
-                <div class="card-interset">
-                    <div class="socials">
-                        <button>
-                            <i class="fas fa-like"></i>
-                        </button>
-                        <button>
-                            <i class="fas fa-dislike"></i>
-                        </button>
-                    </div>
-                    <div class="follow">
-                        <button>Follow</button>
-                        <span>12k</span>
+        <section id="main-section">
+            <div id="main">
+                <div class="card">
+                    <div class="card-space"></div>
+                    <div class="card-image">
+                        <img src="img/avatar.jpg" alt="">
+                        </div>
+                        <div class="card-title">
+                            <h3 class="title">John Doe</h3>
+                            <p class="description">(Front-end Engineer)</p>
+                        </div>
+                        <div class="card-interset">
+                            <div class="socials">
+                                <div class="follow">
+                                    <button class="btn">Follow</button>
+                                    <button class="btn">12k</button>
+                                    </div>
+                                <div class="notify">
+                                    <a href="" class="notify-btn">
+                                        <i class="fas fa-bell fa-2x"></i>
+                                    </a>
+                                    <a href="" class="notify-btn">
+                                        <i class="fas fa-envelope fa-2x"></i>
+                                    </a>
+                                    </div>
+                                    </div>
+                            </div>
+                            </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Card Header</h3>
+                            </div>
+                            <div class="card-content">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum magni omnis
+                                    nostrum
+                                    voluptatem, labore quisquam a, dolorem nisi nemo expedita error culpa? Unde,
+                                    necessitatibus ducimus dolore maiores tempora eum?
+                                </p>
+                                </div>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="socials">
+                                        <button>
+                                            <i class="fas fa-like"></i>
+                                        </button>
+                                        <button>
+                                            <i class="fas fa-dislike"></i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn notify" title="comments">
+                                            <i class="fas fa-comment"></i>
+                                        </a>
+                                        <a href="" class="btn notify">
+                                            <i class="fas fa-envelope"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                </div>
+                <div class="profile">
+                    <div>
+                        <input type="text" class="form-control" placeholder="Firstname">
+                        <input type="text" class="form-control" placeholder="Lastname">
                     </div>
                     <div>
-                        <a href="" class="btn notify">
-                            <i class="fas fa-bell"></i>
-                        </a>
-                        <a href="" class="btn notify">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="card-header">
-                        <h3>Card Header</h3>
-                    </div>
-                    <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est earum magni omnis nostrum voluptatem, labore quisquam a, dolorem nisi nemo expedita error culpa? Unde, necessitatibus ducimus dolore maiores tempora eum?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur distinctio perspiciatis quaerat praesentium ipsa suscipit quas adipisci officia amet!</p>
-                    </div>
-                </div>
-                <div class="card-footer">
-                    <div class="socials">
-                        <button>
-                            <i class="fas fa-like"></i>
-                        </button>
-                        <button>
-                            <i class="fas fa-dislike"></i>
-                        </button>
+                        <label for="">website</label>
+                        <input type="text" class="form-control">
                     </div>
                     <div>
-                        <a href="" class="btn notify" title="comments">
-                            <i class="fas fa-comment"></i>
-                        </a>
-                        <a href="" class="btn notify">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+                        <label for="">Description</label>
+                        <textarea rows="10" cols="50" class="form-control">
+                        </textarea>
                     </div>
-                </div>
-            </div>
-
-            <div class="profile">
-                
+                    </div>
             </div>
         </section>
     </main>
+<script src="js/index.js"></script>
 </body>
 </html>

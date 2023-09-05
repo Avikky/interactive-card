@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.website-title {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.website-title h3 {
+    border: 2px solid #233499;
+    font-weight: 500px;
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+}
+
+#main-section {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#main .card {
+    background-color: #fff;
+    border-radius: 9px;
+    border-color: 1px solid #ddd;
+    padding: 1rem;
+    max-width: 650px;
+    min-width: 450px;
+
+}
+
+#main .card .card-image {
+    display: flex;
+    justify-content: center;
+}
+
+#main .card .card-image img {
+    height: 145px;
+    width: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #EB661B;
+    background-color: #f4f4f4;
+    margin-top: -40px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #EB661B;
+    color: #fff;
+}
+
+.notify-btn {
+    margin-left: 6px;
+    margin-right: 6px;
+    color: #EB661B;
+}
+
+
+#main .card .card-interset .socials {
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#main .card .card-interset .socials .likes a {
+    color: black;
+    margin: 0 5px;
+}
+
+#main .card .card-space {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: absolute;
+    height: 20vh;
+    margin: -17.8px -17.9px;
+    background: #EB661B;
+}
+
+.card-title .title {
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card-title .description {
+    font-size: 20px;
+    text-align: center;
+}
